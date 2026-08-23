@@ -203,8 +203,6 @@ impl<'a> canvas::Program<Message> for Canvas<'a> {
                             }
                         }
 
-                        // send text message on
-
                         // TODO: find a way to stop panning when cursor exits the canvas
                         _ => None,
                     },
